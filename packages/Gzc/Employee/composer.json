@@ -1,0 +1,25 @@
+{
+    "name": "gzc/employee",
+    "description": "Employee package for Gzc article.",
+    "keywords": ["laravel", "employee"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gzc",
+            "email": "test@gzc.com"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "tests/EmployeeCase.php"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Gzc\\Employee\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
